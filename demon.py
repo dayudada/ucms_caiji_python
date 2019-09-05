@@ -31,7 +31,7 @@ print(r['code'])
 print(r['msg'])
 
 # 多文章推送演示
-
+data={}
 datalist=[]
 data['cid']=1
 data['title']='多文章推送演示1'
