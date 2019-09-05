@@ -1,7 +1,9 @@
 #!/usr/bin/env python
 # -*- coding:utf-8 -*-
 
-# 引用ucms采集推送模块
+# 安装ucms采集推送库 pip install ucms
+
+# 引用ucms采集推送库
 from ucms import ucms
 
 # 单文章推送函数
