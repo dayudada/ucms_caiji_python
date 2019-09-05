@@ -1,0 +1,2 @@
+# ucms_caiji_python
+UCMS采集接口python推送库,用于python将采集内容推送到UCMS上
