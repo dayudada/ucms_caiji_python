@@ -74,7 +74,7 @@ successnum 成功推送条数
     print(r['msg'])
     
     # 多文章推送演示
-    
+    data={}
     datalist=[]
     data['cid']=1
     data['title']='多文章推送演示1'
