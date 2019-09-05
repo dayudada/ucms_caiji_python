@@ -57,6 +57,7 @@ successnum 成功推送条数
 **DEMON**
 
 
+    #引用UCMS推送模块
     from ucms import ucms
     
     # 采集推送接口url
