@@ -9,6 +9,12 @@ UCMS是一款UCMS是一款简单的开源内容管理系统，可以非常方便
 
 而UCMS采集接口python推送库是UCMS采集插件的一个python采集辅助库，让你用python将采集数据轻松的推送到UCMS上
 
+使用本库请确保您的网站系统使用的是UCMS，并且安装了采集插件。post.php为官方采集插件([采集插件官方使用说明](http://uuu.la/help/56.html))，百度站长+熊掌号自动推送版采集插件请添加官方QQ群在群文件下载
+
+[【GitHub】](https://github.com/dayudada/ucms_caiji_python)
+[【码云】](https://gitee.com/dayudada/ucms_caiji_python)
+
+[【UCMS官方QQ讨论群】](https://jq.qq.com/?_wv=1027&k=5B9MdJp)
 ## 使用方法
 
 **安装**
@@ -54,10 +60,10 @@ successnum 成功推送条数
 
 如果 成功推送条数为0 而实际推送了多条数据，说明推送失败，请用单文章推送测试错误原因
 
-**DEMON**
+**DEMO**
 
 
-    #引用UCMS推送模块
+    # 引用UCMS推送模块
     from ucms import ucms
     
     # 采集推送接口url
